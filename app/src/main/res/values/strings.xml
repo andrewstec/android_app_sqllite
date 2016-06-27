@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQLite Project</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_activity_name">Add an Activity</string>
+    <string name="add_contact_header">Add a Contact</string>
+    <string name="update_item">Update Contact</string>
+    <string name="delete_item">Delete Contact</string>
+    <string name="update_activity_name">Update an Activity</string>
+</resources>

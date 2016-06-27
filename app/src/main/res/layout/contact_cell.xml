@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <TextView android:id="@+id/cell_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="cell name"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:paddingBottom="5dp"
+        android:textAlignment="center" />
+
+    <TextView android:id="@+id/cell_email"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="cell email"
+        android:textSize="15sp"
+        android:paddingBottom="5dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_item"
+        android:layout_weight="1"
+        android:id="@+id/cell_delete_button"
+        android:onClick="onClickDelete"
+        />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/update_item"
+        android:layout_weight="1"
+        android:onClick="onClickUpdate"
+        android:id="@+id/cell_update_button"
+        android:textAlignment="center" />
+
+</LinearLayout>
